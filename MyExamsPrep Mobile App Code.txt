@@ -1,0 +1,51 @@
+<ion-view title="MyExamsPrep">
+  <ion-content padding="true" class="has-header">
+    <form class="list">
+      <ion-list>
+        <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="">
+        </label>
+      </ion-list>
+      <ion-checkbox>Remember me</ion-checkbox>
+      <button style="color:#6772E6;" class="button button-stable button-block">Log in</button>
+    </form>
+    <button class="button button-light button-block">Forgot username/password</button>
+    <a href="mailto:INFO@MYEXAMSPREP.COM" style="color:#6772E6;" class="button button-light button-block button-clear">Contact us</a>
+  </ion-content>
+</ion-view>
+
+
+
+
+
+
+
+
+<ion-view title="Home" style="background-color:#FBFCFA;">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-icon icon No Icon"> Log out</button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <form class="list">
+      <label class="item item-select">
+        <span class="input-label">Select Subject</span>
+        <select>
+          <option>SAT</option>
+          <option>ACT</option>
+          <option>PSAT</option>
+        </select>
+      </label>
+    </form>
+    <a href-inappbrowser="http://www.myexamsprep.com/" style="font-weight:500;" class="button button-positive button-block button-clear">Start</a>
+    <form class="list">
+      <label class="item item-input">
+        <span class="input-label">HomeWork</span><textarea placeholder=""></textarea></label>
+    </form>
+    <button class="button button-stable button-block">Stop</button>
+  </ion-content>
+</ion-view>
